@@ -31,7 +31,10 @@ print(tableDump(t5))
 print(tableDump(t6))
 print(tableDump(t7))
 print(tableDump(t8))
+```
 
+if the table has some nested table in it. you can pass 'true' to the second args to let it fold the nested table.
+``` lua
 --[[nested table test]]
 local t9 = {
     [t1] = t1,
